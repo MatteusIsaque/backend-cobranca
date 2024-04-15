@@ -1,0 +1,34 @@
+POST http://localhost:3333/debtor/create
+Content-Type: application/json
+
+{
+  "name":"Matteus Isaque",
+  "email":"matteus.isaque28@gmail.com",
+  "id_payment":"123"
+}
+
+###
+
+PUT http://localhost:3333/debtor/661976dab0ffac9dbf1509ff
+Content-Type: application/json
+
+{
+  "name":"Matteus Isaque dos Santos Vieira",
+  "email":"matteus.isaque39@gmail.com",
+  "id_payment":"123",
+  "services": ""
+}
+
+###
+
+GET http://localhost:3333/debtor/find-all
+Content-Type: application/json
+
+###
+
+
+PUT http://localhost:3333/services/6619847dfcb79010099a9622
+
+{
+  "service":"a"
+}
